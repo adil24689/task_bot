@@ -1,8 +1,7 @@
-# render.yaml
 services:
   - type: web
     name: task-bot
     runtime: python
+    pythonVersion: 3.11.8
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python bot.py"
-    pythonVersion: 3.11.8
